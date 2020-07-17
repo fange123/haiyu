@@ -1,0 +1,103 @@
+* { margin: 0;padding: 0;}
+a { text-decoration: none;color: #fff;}
+a:hover { color: #fff;}
+body { color: #fff;font-family: 微软雅黑;}
+ul li { list-style: none;}
+@font-face {
+    font-family: applefang;
+    src: url("../fonts/applefang.ttf");
+}
+@font-face {
+    font-family: fangzheng;
+    src: url("../fonts/fangzheng.ttf");
+}
+.index_main .section1 .index_banner .item .inner .block_txt { width:800px;margin:auto;text-align: left;top:35%;}
+.index_main .section1 .index_banner .item .inner .block_txt h1{ font-weight:300;font-size: 80px;letter-spacing: 20px;text-shadow: 1px 1px 1px #ccc;line-height: 120px;font-family: fangzheng;}
+.index_main .section1 .index_banner .item .inner .block_txt h3{ font-weight:300;font-size: 30px;text-shadow: 1px 1px 1px #ccc;line-height: 60px;text-align: left;font-family: fangzheng;}
+.index_main .section1 .index_banner .item .inner .block_txt p{ font-weight:300;font-size: 22px;margin-top: 10px;letter-spacing: 3px;text-shadow: 1px 1px 2px #ccc;font-family: applefang;}
+.header { height: 70px;padding-top: 30px;}
+.header .left a img {margin-top: -14px;}
+.index_main .section1 .slick_txt .slick_arrow {width: 50px;height: 50px;}
+#fp-nav ul li a span, .fp-slidesNav ul li a span { background: #E8E8E8;}
+.pic { width: 180px;height: 250px;position: fixed;top: 450px;left: 0;z-index: 4;}
+.pic li { height: 60px;line-height: 60px;border-radius: 0 20px 20px 0;}
+.picbg { background: rgba(255,255,255,.3);}
+.pic li img { vertical-align: middle;position: relative;left: 10px;width: 40px;}
+.pic span { display: none;position: absolute;left: -110px;font-weight: 100;font-size: 16px;}
+.aside { width: 200px;font-size: 20px;background: rgba(3,1,31,.7);position: fixed;top: 0;right: 0;height: 750px;display: none;z-index: 99;text-align: center;}
+.aside li:first-child { margin-top: 60px;}
+.aside li { height: 70px;line-height: 70px;margin-bottom: 20px;}
+.aside li:hover { background: linear-gradient(to left,rgba(177,73,5,.5),rgba(185,115,5,.5))}
+/*关于我们*/
+.index_main .section2 {background: url("../img/about_bg.png") no-repeat;width: 100%;height: 100%;background-size: 100%;}
+.text { background:url("../img/about_text.png") no-repeat center bottom;width: 1200px;height: 560px;position: absolute ;bottom:0;color: #000;margin: auto;}
+.text .tit { height: 128px;text-align: center;padding-left: 70px;margin-top: 90px;}
+figure { padding-right: 70px;}
+.text h2 { font-size: 40px;font-weight: 600;}
+.text h3 { font-size: 25px;color: #ccc;font-weight: 500;line-height: 50px;}
+.tit01 { width: 357px;height:374px;float: left;margin-left: 40px;}
+.text p{ font-size: 22px;line-height: 38px;width: 1000px;}
+.text p span{ color: #b92801;}
+/*业务介绍*/
+.index_main .section3{width: 100%;height: 100%;background: url(../img/produce_bg.png) no-repeat;background-size: 100% 100%;}
+.wrapper { width: 90%;margin: 0 auto;}
+.tit02 { height: 100px;width: 766px;border-bottom: 1px solid #ccc;margin: 70px auto 0;text-align: center;}
+.tit02 h2 { font-size: 25px;font-weight: 500;line-height: 50px;}
+.tit02 h3 { font-size: 16px;color: #ccc;font-weight: 400;}
+.content02 { margin-top: 40px;text-align: center ;width: 100%;}
+.content02 img{ width: 100px;}
+.content02 .tit03 { width: 20%;height: 500px;float: left;margin-right: 63px;background: #fff;color: #000;position: relative;}
+.content02 .mright_0 { margin-right: 0!important;}
+.content02 .tit03 img { margin-top: 35px;margin-bottom: 35px;}
+.content02 .tit04 { width: 180px;margin:auto;}
+.content02 .tit04 h3 { font-size: 24px;line-height: 60px;}
+.content02 .tit04 p{ font-size: 16px;line-height: 35px;}
+.content02 .tit4 { display: none;width: 100%;height: 500px;position: absolute;top:0;left: 0;color: #fff;padding: 0 10px 0 10px;}
+.content02 .tit4 h3{ font-size: 28px;margin-top: 70px;line-height: 100px;}
+.content02 .tit4 p{ font-size: 18px;line-height: 40px;}
+
+/*产品展示*/
+.index_main .section4{width: 100%;height: 100%;background: url(../img/pro_bg.png) no-repeat;background-size: 100% 100%;}
+.tit05 { float: left;width: 25%;position: relative;}
+.tit05 img{ width: 100%;}
+.tit5 { background: rgba(0,0,0,.7);width: 100%;height: 100%;position: absolute;top: 0;left: 0;color: #fff;text-align: center;display: none;}
+.tit5 h5 { margin-top: 110px;font-size: 22px;}
+.tit5 span { display: block;height: 1px;width: 70%;background:linear-gradient(to right ,#0611f1,#00f6ff);margin-left: 15%;}
+.tit5 h5{ line-height: 40px;}
+.tit5 p { line-height: 50px;letter-spacing: 2px;font-size: 12px;}
+#display { position: relative;}
+.displaybg { background: rgba(0,0,0,.7);position: absolute;top: 0;left: 0;z-index: 9999;width: 100%;height: 100%;display: none;}
+.showpic { width: 500px;height: 600px;margin: 120px auto;background: #fff;padding: 15px;}
+.showpic img { width: 100%;height: 450px;}
+.dis_h5 { font-size: 24px;color: #333;margin: 20px 0 10px 0;}
+.dis_p { font-size: 12px;color: #ccc;line-height: 20px;}
+.dis_a {display:none;opacity: .4;padding-bottom:10px;background: rgba(255,255,255,.3);position: absolute;top: 80px;right: 0;z-index: 9999;font-size: 80px;text-decoration: none;line-height: 50px;margin-right: 10px;text-align: center;}
+.dis_a:hover { text-decoration: none;opacity: 1;}
+    /*团队展示*/
+.index_main .section5{width: 100%;height: 100%;background: url(../img/t_bg.png) no-repeat;background-size: 100% 100%;}
+.tex p{ line-height: 30px;margin-top: 20px;letter-spacing: 2px;text-indent: 2em;}
+.team_pic { width: 100%;overflow: hidden;}
+.team_pic img { width: 30%;}
+/*联系我们*/
+.index_main .section6 {width: 100%;height:100%;background: url(../img/call_bg.png) no-repeat;background-size: 100% 100%;}
+.section6 .tit02 { height: 100px;}
+.section6 .tit02 h2 { margin-top: 40px;}
+.section6 .wrapper { height:600px;background: url("../img/call_text.png") no-repeat;margin-top: 30px;background-size: 100%;}
+.section6 .call_tex { width: 445px;height: 540px;float: right;margin: 80px 30px 0 0;}
+.section6 .call_tex p{ font-size: 22px;color: #000;line-height: 40px;height: 40px;letter-spacing: 3px;text-indent: 2rem;}
+.call { height: 217px;background: #fff;}
+.call .call_txt { float: left;width: 33%;border-right: 1px solid #ccc;height: 217px;}
+.call .call_txt:hover { box-shadow: 0 0 20px #8A8A8A;}
+.call .call_txt img{ margin: 77px 0 0 45%;}
+.border_0 { border: 0!important;}
+.wrapper01 { width: 1200px;margin: auto;}
+.call_text { height: 540px;background: #1d2337;margin: auto;}
+.call_list { height: 90px;padding-top: 70px;}
+.call_logo { float: left;width: 722px;}
+.call_tits { height: 190px;margin-top: 20px;}
+.call_tits address { width: 690px;float: left;font-size: 18px;padding-top: 10px;}
+.call_tits address p{ line-height: 38px;}
+.call_li { float: left;text-align: center;}
+.call_li li{ float: left;width: 85px;text-align: center;padding-top: 40px;}
+.call_ma img { margin: 10px 0 0 52px;}
+.call_top { width: 100px;margin: 180px auto 0;height: 60px;}
